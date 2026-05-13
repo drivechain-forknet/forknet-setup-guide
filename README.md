@@ -24,7 +24,11 @@ https://github.com/LayerTwo-Labs/bip300301_enforcer
 
 Install dependencies:
 
-`Rustc Cargo grpcurl`
+`rustc cargo grpcurl`
+
+rust & cargo can be installed using rustup:
+
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 Build:
 
