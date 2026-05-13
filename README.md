@@ -24,11 +24,12 @@ https://github.com/LayerTwo-Labs/bip300301_enforcer
 
 Install dependencies:
 
-`rustc cargo grpcurl`
+`rustc cargo grpcurl/buf clang libclang-dev`
 
-rust & cargo can be installed using rustup:
+rustc and cargo must be installed using rustup or building will fail later:
 
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
 
 Build:
 
