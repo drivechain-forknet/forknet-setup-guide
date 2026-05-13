@@ -1,5 +1,6 @@
 # forknet-setup-guide
 
+# First we will get all of the required software installed:
 
 ## Mainchain:
 Clone:
@@ -45,3 +46,117 @@ git clone https://github.com/mempool/electrs
 cd electrs
 cargo run --bin electrs --release -- --cookie=user:password --jsonrpc-import
 ```
+
+
+# Sidechains:
+
+
+
+## thunder-rust
+Clone:
+
+https://github.com/LayerTwo-Labs/thunder-rust.git
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin thunder_app -- --headless`
+
+
+
+## truthcoin-dc
+Clone:
+
+https://github.com/LayerTwo-Labs/truthcoin-dc
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin truthcoin_dc_app -- --headless`
+
+
+
+## photon
+Clone:
+
+https://github.com/LayerTwo-Labs/photon
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin photon_app -- --headless`
+
+
+## plain-bitassets
+Clone:
+
+https://github.com/LayerTwo-Labs/plain-bitassets
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin plain_bitassets_app -- --headless`
+
+
+## coinshift-rs
+Clone:
+
+https://github.com/LayerTwo-Labs/coinshift-rs
+
+Install dependencies:
+
+`libssl-dev`
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin coinshift_app -- --headless`
+
+## plain-bitnames
+Clone:
+
+https://github.com/LayerTwo-Labs/plain-bitnames
+
+Build:
+```
+git submodule update --init
+cargo build
+```
+
+Run:
+
+`cargo run --bin plain_bitnames_app -- --headless`
+
+
+
+
+
+# Next we will do any required configuration:
+
+# We will start up all of the required software:
+
