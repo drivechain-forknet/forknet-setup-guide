@@ -43,8 +43,5 @@ Now setup a local electrum server for the enforcer:
 ```
 git clone https://github.com/mempool/electrs
 cd electrs
-cargo run --bin electrs --release -- \
-    --network main \
-    --cookie=user:password \
-    --jsonrpc-import
+cargo run --bin electrs --release -- --cookie=user:password --jsonrpc-import
 ```
