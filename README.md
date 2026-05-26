@@ -158,5 +158,16 @@ Run:
 
 # Next we will do any required configuration:
 
+Mainchain configuration file:
+
+`~/.drivechain-forknet/drivechain-forknet.conf`
+
+```
+rpcuser=user
+rpcpassword=pass
+server=1
+rest=1
+```
+
 # We will start up all of the required software:
 
