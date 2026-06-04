@@ -153,7 +153,10 @@ Run:
 `cargo run --bin plain_bitnames_app -- --headless`
 
 
-
+## grpcurl 
+You will need a tool to interact with the enforcers grpc server
+Example:
+https://github.com/fullstorydev/grpcurl
 
 
 # Next we will do any required configuration:
