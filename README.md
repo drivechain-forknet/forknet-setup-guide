@@ -1,4 +1,4 @@
-# forknet-setup-guide
+# drivechain-ecash / forknet-setup-guide
 
 # First we will get all of the required software installed:
 
