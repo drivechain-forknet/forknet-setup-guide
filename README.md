@@ -179,4 +179,4 @@ fallbackfee=0.001
 ```
 
 # We will start up all of the required software:
-
+Copy the logs/ and scripts/ folders from this repository. You will find scripts to start everything
