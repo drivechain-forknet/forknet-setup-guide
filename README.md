@@ -7,6 +7,8 @@ Clone:
 
 https://github.com/drivechain-forknet/drivechain-forknet
 
+git checkout drivechain-ecash
+
 Install build dependencies:
 
 `git cmake build-essential libsqlite3-dev libboost-all-dev libzmq3-dev pkgconf`
@@ -164,7 +166,7 @@ https://github.com/fullstorydev/grpcurl
 
 Mainchain configuration file:
 
-`~/.drivechain-forknet/drivechain-forknet.conf`
+`~/.drivechain-ecash/drivechain-ecash.conf`
 
 ```
 rpcuser=user
