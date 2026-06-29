@@ -7,7 +7,7 @@ Clone:
 
 https://github.com/drivechain-forknet/drivechain-forknet
 
-git checkout drivechain-ecash
+`git checkout drivechain-ecash`
 
 Install build dependencies:
 
